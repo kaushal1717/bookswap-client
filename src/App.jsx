@@ -1,6 +1,6 @@
 // src/App.js or wherever you define your routes
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Login from "@/pages/Login";
+import Login from "./pages/Login";
 import ListedBooks from "./Pages/Listedbooks.jsx";
 import ProtectedRoute from "./components/custom/Protected.jsx";
 import { AuthProvider } from "./context/AuthContext.jsx";
